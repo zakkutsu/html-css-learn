@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="zakkutsu">
+    <title>TIERLIST UMA MUSUME PRETTY DERBY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Tierlist</h1>
+        <p>This is a list of veteran Uma Musume that I have trained along with their details.</p>
+        <!-- <a href="https://wikipedia.com">Wikipedia</a>
+        <img src="img/img.png" alt="Tierlist Uma">  -->
+    </header> 
+    <nav>
+        <a href="Ranking.html">Rank</a> | <a href="About.html">About</a> | <a href="Contact.html">Contact</a>
+    </nav>
+    <main>      
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Informasi tambahan.</p>
+        </aside>
+    </main>
+    <div>
+        <section>
+            <h2>Uma Musume List</h2>
+            <p>Here are some of the Uma Musume I have trained:</p>
+            <details>
+                <summary>Informasi Lebih Lanjut</summary>
+                <p>Ini adalah konten tersembunyi yang bisa dibuka-tutup.</p>
+            </details>
+            <ol>
+                <li>Uma Musume 1</li>
+                <li>Uma Musume 2</li>
+                <li>Uma Musume 3</li>
+            </ol>
+            <table class="border border-black border-collapse">
+                <tr>
+                    <th class="border border-black p-2">Nama</th>
+                    <th class="border border-black p-2">Usia</th>
+                </tr>
+                <tr>
+                    <td class="border border-black p-2">Ali</td>
+                    <td class="border border-black p-2">25</td>
+                </tr>
+            </table>
+
+        </section>
+        <section>
+            <h2>Tambah List Uma</h2>
+            <form id="UmaForm">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama"> 
+                <br>
+                <label for="tittle">Tittle Uma</label>
+                <input type="text" id="tittle" name="tittle">
+                <br>
+                <label for="img">Foto Karakter</label>
+                <input type="file" id="img" name="img" accept="image/*">
+                <br>
+                <label for="track">Track</label> <br>
+                <input type="radio" id="track" name="track" value="dirt"> Dirt <br>
+                <input type="radio" id="track" name="track" value="turf"> Turf
+                <br>
+                <label for="distance">Distance</label><br>
+                <select id="distance" name="distance"> 
+                    <option value="sprint">Sprint</option>
+                    <option value="mile">Mile</option>
+                    <option value="medium">Medium</option>
+                    <option value="long">Long</option>
+                </select>
+                <br>
+                <label for="type">Type</label> <br>
+                    <input type="checkbox" id="type" name="type" value="front"> Front Runner <br>
+                    <input type="checkbox" id="type" name="type" value="pace"> Pace Chaser <br>
+                    <input type="checkbox" id="type" name="type" value="late"> Late Surger <br>
+                    <input type="checkbox" id="type" name="type" value="end"> End Closer <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section>
+            <h2>Video Gameplay Uma Musume</h2>
+            <video controls width="500">
+            <source src="file/sora.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+            </video>
+        <br>
+            <audio controls>
+            <source src="file/sora.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung audio.
+            </audio>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 My Tierlist. All rights reserved.</p>
+        <p>Created by Me</p>
+    </footer>
+     
+</body>
+</html>
