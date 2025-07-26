@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="zakkutsu">
     <title>TIERLIST UMA MUSUME PRETTY DERBY</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
     <header>
@@ -15,7 +15,9 @@
         <img src="img/img.png" alt="Tierlist Uma">  -->
     </header> 
     <nav>
-        <a href="Ranking.html">Rank</a> | <a href="About.html">About</a> | <a href="Contact.html">Contact</a>
+        <a href="Ranking.html" id="ranktab">Rank</a>
+        <a href="About.html" id="abouttab">About</a>
+        <a href="Contact.html" id="contacttab">Contact</a>
     </nav>
     <main>      
         <aside>
@@ -24,7 +26,7 @@
         </aside>
     </main>
     <div>
-        <section>
+        <section id="umalist">
             <h2>Uma Musume List</h2>
             <p>Here are some of the Uma Musume I have trained:</p>
             <details>
@@ -48,7 +50,7 @@
             </table>
 
         </section>
-        <section>
+        <section id="umaform">
             <h2>Tambah List Uma</h2>
             <form id="UmaForm">
                 <label for="nama">Nama</label>
@@ -81,15 +83,15 @@
                 <input type="reset" value="Reset">
             </form>
         </section>
-        <section>
+        <section id="umamedia">
             <h2>Video Gameplay Uma Musume</h2>
             <video controls width="500">
-            <source src="file/sora.mp4" type="video/mp4">
+            <source src="resources/file/sora.mp4" type="video/mp4">
             Browser Anda tidak mendukung video.
             </video>
         <br>
             <audio controls>
-            <source src="file/sora.mp3" type="audio/mpeg">
+            <source src="resources/file/sora.mp3" type="audio/mpeg">
             Browser Anda tidak mendukung audio.
             </audio>
         </section>
